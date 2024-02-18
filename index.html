@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,500;6..12,700&family=Nunito:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <form action="" id="form">
+            <h1>Registration Form</h1>
+            <div class="input-group">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" maxlength="25">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" maxlength="35">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" name="phone" maxlength="10">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="date-of-birth">Date of Birth</label><br>
+                <input type="date" id="date" name="date">
+                <div class="error"></div>
+            <div class="input-group">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" maxlength="15">
+                <div class="error"></div>
+            </div>
+            <div class="input-group">
+                <label for="confirmpassword">Confirm Password</label><br>
+                <input type="password" id="confirmpassword" name="confirmpassword" maxlength="15">
+                <div class="error"></div><br>
+            </div>
+            <button type="submit" id="btn">Submit</button>
+            <!-- <input type="Submit" id="btn"> -->
+        </form>
+
+    </div>
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
